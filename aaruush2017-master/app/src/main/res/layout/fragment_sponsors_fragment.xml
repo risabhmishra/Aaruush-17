@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212a49"
+    tools:context="com.rm.dell.aaruush17.Sponsors_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TITLE SPONSOR"
+                android:textSize="25dp"
+                android:id="@+id/lenovo"
+                android:textStyle="normal|bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/lenovo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASSOCIATE SPONSOR"
+                android:textSize="25dp"
+                android:id="@+id/hp"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/hp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CO-SPONSOR"
+                android:layout_marginTop="20dp"
+                android:id="@+id/cisco"
+                android:textSize="25dp"
+                android:textStyle="normal|bold"
+                android:textColor="#ffffff"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/navlogo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOCIAL MEDIA PARTNER"
+                android:textSize="25dp"
+                android:textStyle="normal|bold"
+                android:id="@+id/wittyfeed"
+                android:textColor="#ffffff"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/hp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
